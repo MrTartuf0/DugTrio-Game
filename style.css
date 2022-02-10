@@ -37,6 +37,7 @@ body{
     top: 0px;
     transition: 0.4s;
     user-select: none;
+    width: var(--imgWidth);
 }
 
 .dugtrio2{
@@ -59,4 +60,17 @@ body{
 
 .img-win{
     width: min(800px,100%);
+}
+
+
+@media screen and(min-width:0px) {
+    :root{
+        --imgWidth:100px;
+    }
+}
+
+@media screen and(min-width:800px) {
+    :root{
+        --imgWidth:250px;
+    }
 }
