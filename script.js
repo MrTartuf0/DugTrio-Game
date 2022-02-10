@@ -5,7 +5,7 @@ var randY2;
 var talpa = document.getElementById("dugtrio");
 var talpa2 = document.getElementById("dugtrio2");
 
-setInterval(changePosition, 400);
+setInterval(changePosition, 200);
 setInterval(secondaTalpa, 2000);
 
 function changePosition(){
