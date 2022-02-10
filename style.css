@@ -37,7 +37,7 @@ body{
     top: 0px;
     transition: 0.4s;
     user-select: none;
-    width: var(--imgWidth);
+    width: 100px;
 }
 
 .dugtrio2{
@@ -65,7 +65,7 @@ body{
 
 @media screen and(min-width:0px) {
     :root{
-        --imgWidth:100px;
+        --imgWidth:10px;
     }
 }
 
